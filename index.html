@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Linked List</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <!-- Input -->
+        <input type="text" id="node-at-head" placeholder="Node Data Ex:10">
+        <input type="text" id="index" placeholder="Node Index [This field is used with INSERT & CLEAR node by index, Ex:0]">
+
+        <button id="node-at-head-button" onclick="insertNodeAtHead()">Insert node at head</button>
+        <button id="node-at-tail-button" onclick="insertNodeAtTail()">Insert node at tail</button>
+        <button id="print-node-by-index-button" onclick="insertByIndex()">Insert node by index</button>
+        
+        <button id="clear-node-by-index-button" onclick="removeAt()">Clear node by index</button>
+        
+        <button id="clear-entire-linked-list-button" onclick="clearList()">Clear linked list</button>
+        <button id="clear-entire-linked-list-button" onclick="printListData()">Print linked list</button>
+
+        <!-- result -->
+        Result : <h2 id="result" style="margin-top:20px"></h2>
+
+        <!-- Scripts for import only -->
+        <script src="script.js"></script>
+    </body>
+</html>
